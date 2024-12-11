@@ -19,7 +19,7 @@ searchIcon.addEventListener('click', () => {
 // ****** path checking ******
 
 const path = window.location.pathname;
-if (path === '/index.html') {
+if (path === '/') {
     document.querySelector('.nav_links li a[href="index.html"]').classList.add('font');
 }
 // Check for about.html
