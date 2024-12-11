@@ -19,11 +19,10 @@ searchIcon.addEventListener('click', () => {
 // ****** path checking ******
 
 const path = window.location.pathname;
-if (path === '/') {
+
+if (path.includes('index.html')) {
     document.querySelector('.nav_links li a[href="index.html"]').classList.add('font');
-}
-// Check for about.html
-else if (path === '/about.html') {
+} else if (path.includes('about.html')) {
     document.querySelector('.nav_links li a[href="about.html"]').classList.add('font');
 }
 
