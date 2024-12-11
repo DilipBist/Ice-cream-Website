@@ -18,11 +18,12 @@ searchIcon.addEventListener('click', () => {
 
 // ****** path checking ******
 
-const path = window.location.pathname;
+const repoName = window.location.pathname.split('/')[1]; // Extract repo name
+const currentPath = window.location.pathname.replace(`/${repoName}`, '');
 
-if (path.includes('index.html')) {
+if (currentPath === '/index.html') {
     document.querySelector('.nav_links li a[href="index.html"]').classList.add('font');
-} else if (path.includes('about.html')) {
+} else if (currentPath === '/about.html') {
     document.querySelector('.nav_links li a[href="about.html"]').classList.add('font');
 }
 
