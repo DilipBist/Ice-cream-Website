@@ -13,7 +13,7 @@ Ice-cream online selling website where the users can view the ice-creams also kn
 ## 🛠️ Technologies Used
 
 - **HTML**: For building the UI.
-- **Vanilla CSS**: For styling.
+- **SASS**: For styling.
 - **Vanilla JS**:
 
 ---
