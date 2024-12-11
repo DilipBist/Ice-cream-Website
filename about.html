@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream Website</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- boxIcons CDN link  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>
+
+    <section class="top aboutTop">
+        <!-- ******** top nav bar section **********  -->
+        <nav class="" data-aos="fade-up" data-aos-duration="500">
+            <div class="container">
+                <div class="logo flex-btn">
+                    <a href="index.html"><img src="./images/logo.png" alt="logo" style="width: 150px;"></a>
+                    <div class="menu_icon">
+                        <i class='bx bx-menu-alt-right'></i>
+                    </div>
+                </div>
+
+                <div class="nav_container">
+                    <ul class="nav_links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Faq's</a>
+                        </li>
+                    </ul>
+
+                    <div class="cart_search">
+                        <div class="search_icon">
+                            <input type="text" placeholder="Search here..." class="searchinput">
+                            <i class='bx bx-search'></i>
+                        </div>
+                        <div class="flex-btn">
+                            <div class="cart_icon">
+                                <i class='bx bx-cart'></i>
+                                <span>0</span>
+                            </div>
+                            <button class="btn_pink">Contact <i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+
+        <div class="blur">
+            <img src="./images/rightblur.png" alt="">
+        </div>
+        <div class="blur2">
+            <img src="./images/leftblur.png" alt="">
+        </div>
+
+
+        <div class="top_about_heading container" data-aos="zoom-in" data-aos-duration="2000">
+            <p class="f2">About US</p>
+            <p><span class="pink">Home </span>/ About Us</p>
+        </div>
+    </section>
+
+    <section class="about1" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="container">
+            <div class="left_image">
+                <img src="./images/about1.png" alt="">
+            </div>
+            <div class="right_content">
+                <p class="f2">Our <span class="pink">Journey</span> Began With a Simple Dream</p>
+                <p>Our goal is to make the best ice cream using only the finest,
+                    natural ingredients. From rich, creamy classics to adventurous
+                    new creations, every flavor is meticulously crafted in-house to
+                    ensure the highest quality and freshness. <br> <br> We take pride in offering a diverse range of
+                    options, including
+                    dairy-free, vegan, and gluten-free choices, so everyone can find
+                    their perfect scoop.
+                </p>
+                <button class="btn_pink">Read More <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about2_hero">
+        <div class="container">
+            <div class="left_content" data-aos="fade-up" data-aos-duration="2000">
+                <p class="f2">Our Mission is to Create Moments</p>
+                <p>We strive to foster a welcoming and joyful environment
+                    where customers of all ages can gather, celebrate, and
+                    make lasting memories. Our commitment extends beyond
+                    serving great ice cream.
+                </p>
+                <button class="btn_pink">Read More <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+
+            <div class="right_image" data-aos="fade-down" data-aos-duration="2000">
+                <img src="./images/about2.png" class="about2_img" alt="">
+            </div>
+        </div>
+        <div class="blur">
+            <img src="./images/rightblur.png" alt="">
+        </div>
+    </section>
+
+    <!-- ******** counter animation ********** -->
+
+    <div class="counter_statistics container" data-aos="zoom-in" data-aos-duration="2000">
+        <div class="heading">
+            <p class="f2">Our <span class="pink">Statistics</span></p>
+            <p>What makes us special through our impressive statistics.</p>
+        </div>
+        <div class="counter_content">
+            <div class="bg_white">
+                <div class="value" akhi="91">0</div>
+                <p>Awards Win</p>
+            </div>
+            <div class="bg_white">
+                <div class="value" akhi="100">0</div>
+                <p>Satisified Clients</p>
+            </div>
+            <div class="bg_white">
+                <div class="value" akhi="25">0</div>
+                <p>Years of Experience</p>
+            </div>
+            <div class="bg_white">
+                <div class="value" akhi="145">0</div>
+                <p>Employees Working</p>
+            </div>
+        </div>
+    </div>
+
+
+    <section class="team">
+        <div class="container">
+            <div class="heading">
+                <p class="f2">Our <span class="pink">Team</span> Members</p>
+                <p>Get to know the friendly faces behind your favorite flavors.</p>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper mySwiperTeam">
+                <div class="swiper-wrapper team_wrapper">
+                    <!-- <div class="swiper-slide team_details">
+                        <img src="./images/FollowImg/follow-image1.jpg.png" alt="">
+                        <p><strong>Marvin Joner</strong></p>
+                        <small>Bakery Worker</small>
+                        <div class="social_media_icons">
+                            <i class='bx bxl-facebook-circle social_icon'></i>
+                            <i class='bx bxl-instagram-alt social_icon'></i>
+                            <i class='bx bxl-linkedin social_icon'></i>
+                        </div>
+                    </div> -->
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ************* Sign up Section  ***********  -->
+
+
+    <section class="signUp">
+        <div class="container">
+            <div class="signUp_heading" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="f2">Sign up For <span class="pink">Exclusive Deals</span> and Updates</p>
+                <p class="light_font">Get 10% off your next order and stay updated with our latest offers.</p>
+            </div>
+
+            <form data-aos="zoom-in" data-aos-duration="1000">
+                <div class="input">
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <button class="btn_pink">Subscribe <i class='bx bx-right-arrow-alt'></i></button>
+                </div>
+                <div class="checkbox">
+                    <input type="radio" id="radio" name="agreement" required>
+                    <label for="radio">
+                        I agree to the
+                        <a class="pink" style="text-decoration: underline;">Privacy Policy</a>
+                    </label>
+                </div>
+
+            </form>
+
+            <div class="triangle">
+                <img src="./images/triangle.png" alt="">
+            </div>
+            <div class="circle">
+                <img src="./images/circle.png" alt="">
+            </div>
+        </div>
+    </section>
+
+
+
+    <div class="scrollTop" title="Scroll To Top"><i class='bx bxs-up-arrow-alt'></i></div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_logo">
+                <img src="./images/footerLogo.png" alt="">
+            </div>
+            <div>
+                <p class="footer_h">Navigation</p>
+                <ul class="footer_link">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Faq's</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_address">
+                <div class="address flex">
+                    <div class="location_icon"><i class='bx bxs-map footer_icons'></i></div>
+                    <div class="location_address">
+                        <p class="footer_h">Address:</p>
+                        <p>Bedkot-02, jadapani (Kanchnpur)</p>
+                    </div>
+                </div>
+                <div class="mail flex">
+                    <p class="mail_iocn"><i class='bx bxl-gmail footer_icons'></i></p>
+                    <div class="mail_address">
+                        <p class="footer_h">Emial: </p>
+                        <a href="mailto:dilipbist879@gmail.com">dilipbist879@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social_links">
+                <div class="phone_number flex">
+                    <div class="phone_icon">
+                        <i class='bx bxs-phone footer_icons'></i>
+                    </div>
+                    <div>
+                        <p class="footer_h">+977-9806437793</p>
+                        <p>Got Question? Call Me</p>
+                    </div>
+
+                </div>
+                <div class="links flex">
+                    <i class='bx bxl-facebook-circle footer_icons'></i>
+                    <i class='bx bxl-instagram-alt footer_icons'></i>
+                </div>
+            </div>
+        </div>
+
+        <div class="blur2">
+            <img src="./images/leftblur.png" alt="">
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="js/common.js"></script>
+</body>
+
+</html>

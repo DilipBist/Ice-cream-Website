@@ -1,0 +1,23 @@
+@import 'variables';
+
+@mixin four-color-gradient($angle: 45deg) {
+    background: linear-gradient($angle, $color1, $color2, $color3, $color4);
+}
+
+@mixin flex($value1: center, $value2: space-between) {
+    display: flex;
+    align-items: $value1;
+    justify-content: $value2;
+}
+
+@mixin screen-to($breakpoint) {
+    @if $breakpoint == 'large' {
+      @media (min-width: 1200px) { @content; }
+    }
+    @else if $breakpoint == 'medium' {
+      @media (max-width: 1000px) { @content; }
+    }
+    @else if $breakpoint == 'small' {
+      @media (max-width: 660px) { @content; }
+    }
+  }

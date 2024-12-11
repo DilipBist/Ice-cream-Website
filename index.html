@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IceCream Website</title>
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- AOS animation  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- boxIcons CDN link  -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- css file link  -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="preloader">
+        <div class="loader"></div>
+    </div>    
+
+    <section class="top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#fff" fill-opacity="1"
+                d="M0,288L48,272C96,256,192,224,288,197.3C384,171,480,149,576,165.3C672,181,768,235,864,250.7C960,267,1056,245,1152,250.7C1248,256,1344,288,1392,304L1440,320L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z">
+            </path>
+        </svg>
+        <!-- ******** top nav bar section **********  -->
+        <nav class="" data-aos="fade-up" data-aos-duration="500">
+            <div class="container">
+                <div class="logo flex-btn">
+                    <a href="index.html"><img src="./images/logo.png" alt="logo" style="width: 150px;"></a>
+                    <div class="menu_icon">
+                        <i class='bx bx-menu-alt-right'></i>
+                    </div>
+                </div>
+
+                <div class="nav_container">
+                    <ul class="nav_links">
+                        <li>
+                            <a href="index.html">Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">About</a>
+                        </li>
+                        <li>
+                            <a href="">Blog</a>
+                        </li>
+                        <li>
+                            <a href="">Faq's</a>
+                        </li>
+                    </ul>
+
+                    <div class="cart_search">
+                        <div class="search_icon">
+                            <input type="text" placeholder="Search here..." class="searchinput">
+                            <i class='bx bx-search'></i>
+                        </div>
+                        <div class="flex-btn">
+                            <div class="cart_icon">
+                                <i class='bx bx-cart'></i>
+                                <span>0</span>
+                            </div>
+                            <button class="btn_pink">Contact <i class='bx bx-right-arrow-alt'></i></button>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav>
+
+        <div class="blur">
+            <img src="./images/rightblur.png" alt="">
+        </div>
+        <div class="blur2">
+            <img src="./images/leftblur.png" alt="">
+        </div>
+
+        <!-- ********* hero section ******** -->
+
+        <section class="hero_section container" data-aos="fade-down" data-aos-duration="1000">
+            <div class="left_hero">
+                <h3 class="f2">Welcome to The</h3>
+                <h1 class="f2">Discover <span class="pink"> Sweet</span> Delights!</h1>
+                <p>Relish the timeless taste of handcrafted ice cream, made with passion and the finest ingredients.</p>
+                <button class="btn_purple">Browse Our Classic Flavors <i class='bx bx-right-arrow-alt'></i></button>
+            </div>
+
+            <div class="right_hero">
+                <img src="./images/banner1.png" alt="">
+            </div>
+        </section>
+
+
+    </section>
+
+    <!-- *********** second hero seciton  **********  -->
+
+    <section class="second_hero container">
+        <div class="left_hero_second" data-aos="fade-up" data-aos-duration="2000">
+            <img src="./images/banner2.png" alt="">
+
+            <div class="dots">
+                <img src="./images/Figure → relive-doted.png.png" alt="">
+            </div>
+
+            <div class="circle1">
+                <img src="./images/circle.png" alt="">
+            </div>
+        </div>
+        <div class="right_hero_second" data-aos="fade-down" data-aos-duration="2000">
+            <h1 class="f2">Relive the Sweet Memories of Classic <span class="pink">Ice Creams.</span></h1>
+            <p>From rich chocolate fudge to creamy vanilla sundaes,
+                discover our menu of classic ice cream creations.</p>
+            <button class="btn_pink">Explore Our Menu <i class='bx bx-right-arrow-alt'></i></button>
+            <div class="triangle_shape">
+                <img src="./images/triangle.png" alt="">
+            </div>
+
+        </div>
+
+        <div class="circle2">
+            <img src="./images/circle2.png" alt="">
+        </div>
+
+    </section>
+
+    <!-- ********** favourite section   ******** -->
+
+    <section class="favorites">
+        <div class="container">
+            <div class="favorite_heading" data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="f2">Our <span class="pink"> Classic </span>Favorites</h1>
+                <p>Check out our top products that our customers love.</p>
+            </div>
+
+            <div class="slider_favourite" data-aos="fade-down" data-aos-duration="1000">
+                <!-- Swiper -->
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+
+            </div>
+        </div>
+
+        <div class="left_icecream">
+            <img src="./images/leftcream.png" alt="IceCream">
+        </div>
+
+        <div class="right_icecream">
+            <img src="./images/rightcream.png" alt="IceCream">
+        </div>
+    </section>
+
+
+    <!-- ***********  new Categories section *********** -->
+
+    <section class="new_categories">
+        <div class="container">
+            <div class="cat_heading" data-aos="zoom-in" data-aos-duration="1000">
+                <h1 class="f2">Explore Our <span class="pink">Categories</span></h1>
+                <p>Browse through our different categories to find your favorite ice cream treats.</p>
+            </div>
+
+            <div class="categories" data-aos="zoom-in" data-aos-duration="1000">
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="banner5">
+        <div class="container">
+            <div class="left_banner" data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="f2">Summer Special!</h1>
+                <p>Buy One Sundae, Get One 50% Off!</p>
+                <button class="btn_pink">Get This Deal <i class='bx bx-right-arrow-alt'></i></button>
+
+                <div class="dot2">
+                    <img src="./images/Figure → special-doted.png.png" alt="">
+                </div>
+                <div class="traiangle">
+                    <img src="./images/triangle2.png" alt="">
+                </div>
+            </div>
+
+            <div class="right_banner" data-aos="fade-down" data-aos-duration="2000">
+                <img src="./images/banner3.png" alt="">
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+            <path fill="#F83D8E" fill-opacity="1" d="M0,288L1440,224L1440,320L0,320Z"></path>
+        </svg>
+        <div class="right_blur">
+            <img src="./images/rightblur.png" alt="">
+        </div>
+    </section>
+
+    <!-- ************ best seller section ******** -->
+
+    <section class="best_seller">
+        <div class="container">
+            <div class="best_seller_heading" data-aos="zoom-in" data-aos-duration="1000">
+                <h1 class="f2">Our <span class="pink">Best</span> Sellers</h1>
+                <p>Discover the favorites that keep our customers coming back for more.</p>
+            </div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="swiper-wrapper swiper-wrapper1">
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ******** review section ********** -->
+
+    <section class="review">
+        <div class="container">
+            <div class="review_heading" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="f2">Hear from Our <span class="pink">Happy Ice Cream </span>Lovers</p>
+            </div>
+
+            <!-- Swiper -->
+            <div class="swiper mySwiper1" data-aos="zoom-in" data-aos-duration="1000">
+                <div class="swiper-wrapper swiper-wrapper2">
+
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="c1">
+                <img src="./icecream/c2.png" alt="">
+            </div>
+            <div class="c2">
+                <img src="./icecream/c1.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ************* Sign up Section  ***********  -->
+
+<!-- pop up on click to the products  -->
+    <div id="popup-overlay" class="popup-overlay" style="display: none;">
+        <div id="popup" class="popup">
+
+        </div>
+    </div>
+
+
+    <section class="signUp">
+        <div class="container">
+            <div class="signUp_heading" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="f2">Sign up For <span class="pink">Exclusive Deals</span> and Updates</p>
+                <p class="light_font">Get 10% off your next order and stay updated with our latest offers.</p>
+            </div>
+
+            <form data-aos="zoom-in" data-aos-duration="1000">
+                <div class="input">
+                    <input type="email" placeholder="Enter Your Email Address">
+                    <button class="btn_pink">Subscribe <i class='bx bx-right-arrow-alt'></i></button>
+                </div>
+                <div class="checkbox">
+                    <input type="radio" id="radio" name="agreement" required>
+                    <label for="radio">
+                        I agree to the
+                        <a class="pink" style="text-decoration: underline;">Privacy Policy</a>
+                    </label>
+                </div>
+
+            </form>
+
+            <div class="triangle">
+                <img src="./images/triangle.png" alt="">
+            </div>
+            <div class="circle">
+                <img src="./images/circle.png" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- ************* Follow section *************** -->
+
+    <section class="follow">
+        <div class="container">
+            <div class="follow_heading" data-aos="zoom-in" data-aos-duration="1000">
+                <p class="f2">Follow Us on <span class="pink">Instagram</span></p>
+                <p class="light_font">Join our Instagram community for updates, special deals, and more!</p>
+            </div>
+
+            <div class="follow_images" data-aos="zoom-in" data-aos-duration="1000">
+
+            </div>
+
+            <div class="round1"></div>
+            <div class="round2"></div>
+        </div>
+    </section>
+
+    <div class="scrollTop" title="Scroll To Top"><i class='bx bxs-up-arrow-alt'></i></div>
+
+    <footer>
+        <div class="container">
+            <div class="footer_logo">
+                <img src="./images/footerLogo.png" alt="">
+            </div>
+            <div>
+                <p class="footer_h">Navigation</p>
+                <ul class="footer_link">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="">Blog</a>
+                    </li>
+                    <li>
+                        <a href="">Faq's</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer_address">
+                <div class="address flex">
+                    <div class="location_icon"><i class='bx bxs-map footer_icons'></i></div>
+                    <div class="location_address">
+                        <p class="footer_h">Address:</p>
+                        <p>Bedkot-02, jadapani (Kanchnpur)</p>
+                    </div>
+                </div>
+                <div class="mail flex">
+                    <p class="mail_iocn"><i class='bx bxl-gmail footer_icons'></i></p>
+                    <div class="mail_address">
+                        <p class="footer_h">Emial: </p>
+                        <a href="mailto:dilipbist879@gmail.com">dilipbist879@gmail.com</a>
+                    </div>
+                </div>
+            </div>
+            <div class="social_links">
+                <div class="phone_number flex">
+                    <div class="phone_icon">
+                        <i class='bx bxs-phone footer_icons'></i>
+                    </div>
+                    <div>
+                        <p class="footer_h">+977-9806437793</p>
+                        <p>Got Question? Call Me</p>
+                    </div>
+
+                </div>
+                <div class="links flex">
+                    <i class='bx bxl-facebook-circle footer_icons'></i>
+                    <i class='bx bxl-instagram-alt footer_icons'></i>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Aos animation -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="js/common.js"></script>
+    <script type="module" src="./js/script.js"></script>
+</body>
+
+</html>
