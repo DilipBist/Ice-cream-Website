@@ -20,6 +20,6 @@ Ice-cream online selling website where the users can view the ice-creams also kn
 
 ## 🚀 Live Demo
 
-Check out the live demo here: https://dilipbist.github.io/Ice-cream-Website/index.html
+Check out the live demo here:https://ice-cream-website-seven.vercel.app/index.html
 
 ---
